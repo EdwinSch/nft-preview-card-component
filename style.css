@@ -5,8 +5,75 @@
     box-sizing: border-box;
 }
 
+:root {
+    --inspect: solid red 1px;
+}
 
 /* MAIN CSS */
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.equilibrium {
+    width: 100%
+}
+.equilibrium >img {
+    width: 100%;
+    border-radius: 10px;
+}
+h1 {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.description, .credit {
+    font-size: 18px;
+    color: #869abb;
+}
+.pricing-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+}
+.flex-wrapper > img {
+    margin-right: 10px;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+}
+.time {
+    color: #869abb;
+}
+hr {
+    border: 1px solid hsl(215, 32%, 27%);    
+}
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 35px;
+    border: solid white 1px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.credit > span {
+    color: white;
 }
