@@ -19,6 +19,7 @@ body {
     align-items: center;
 }
 main {
+    margin: 0px 20px;
     background-color: hsl(216, 50%, 16%);
     width: 350px;
     height: 600px;
@@ -111,3 +112,18 @@ hr {
         color: hsl(178, 100%, 50%);
 }
 
+
+@media only screen and (max-width: 350px) {
+    main {
+        margin: 0px 10px;
+        max-height: 600px;
+        padding: 15px;
+    }
+    .description, .credit {
+            font-size: 16px;
+            color: #869abb;
+    }
+    .price, .time {
+        font-size: 14px;
+    }
+}
